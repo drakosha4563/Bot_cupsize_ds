@@ -17,6 +17,7 @@ RANKS = [
 ]
 
 
+
 class DB:
     @staticmethod
     def execute(query: str, params: tuple = ()) -> None:
